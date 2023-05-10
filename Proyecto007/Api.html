@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <script src="./script.js"></script>
+    <title>EJ Api</title>
+</head>
+
+<body>
+    <header>
+        <!--barra de navegacion-->
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container">
+                    <!-- <div>
+                        <a href="#">
+                            <img src="img/logo.png"width="50" height="50" alt="Logo de Pretty pets">
+                        </a>
+                    </div>
+                -->
+                    <a href="PrettyPets.html" class="navbar-brand"> <span class="text-primary">Pretty</span>Pets</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars"
+                        aria-controls="navbars" aria-expanded="false" aria-label="toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbars">
+                        <ul class="navbar-nav ms-auto mb-1g-0">
+                            <li class="nav-item">
+                                <a href="PrettyPets.html" class="nav-link">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Nosotros.html" class="nav-link">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Tienda.html" class="nav-link">Tienda</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <section class="apii">
+        <div class="container1 d-flex justify-content-center">
+            <div class="card align-items-center">
+                <div class="api-container">
+                    <div class="api">
+                        <h1>¿Conoces alguna raza de perros de la siguiente lista?No?Selecciona una para ver sus fotos</h1>
+                        <br>
+                        <form id="search-form">
+                            <select id="breed-select">
+                                <option value="0">Seleccione una raza</option>
+                                <option value="1">Affenpinsher</option>
+                                <option value="2">Lebrel afgano</option>
+                                <option value="12">Volpino italiano</option>
+                                <option value="4">Airedale terrier</option>
+                                <option value="5">Akbash</option>
+                                <option value="14">Foxhound ingles</option>
+                                <option value="21">Pastor ganadero australiano</option>
+                                <option value="32">Collie barbudo</option>
+                                <option value="50">Border collie</option>
+                                <option value="10">American Bulldog</option>
+                            </select>
+                            <button class="btn-api" type="submit">Ver fotos</button>
+                        </form>
+                    </div>
+                </div>
+                <br>
+                <div id="images-container" class="card-container"></div>
+                <h1>Aqui tienes informacion de cada raza de perro</h1>
+                <br>
+                <h2>Affenpinsher</h2>
+                <p>El Affenpinscher es un perro de compañía que en edad adulta mide entre 24 y 28 cm de la altura
+                    (contando desde las patas hasta la parte superior de la escápula) y pesa unos 3 o 4 kg. Su pelaje es
+                    áspero y suele ser negro aunque, a veces, también presenta un leve tono gris. La raza Affenpinscher
+                    se considera apta para la convivencia con niños. Son perros de familia alegres, sociables,
+                    inteligentes y divertidos. Como contrapartida, pueden ser tercos y nerviosos, lo que dificulta su
+                    educación y su respuesta a la obediencia.</p>
+                <br><br>
+                <h2>Lebrel afgano </h2>
+                <p>El Lebrel afgano es un perro de caza procedente de Afganistán. El Afgano es un perro de aspecto noble
+                    que luce con orgullo y elegancia su largo y brillante pelaje, que precisa de cuidados continuos ya
+                    que se enreda, llegando a perder su brillo. Es una raza grande con una altura de 68 a 74 cm en la
+                    edad adulta para el macho y de 63 a 69 cm en el caso de las hembras. Su magnífico pelaje puede ser
+                    de cualquier color, desde negro a plateado, pasando por todos los colores y combinaciones posibles.
+                    El peso medio es de 25 kg aproximadamente con un mínimo de unos 20 kg y un máximo de unos 27 kg
+                    dependiendo del sexo y la constitución del perro.</p>
+                <br><br>
+                <h2>Volpino Italiano </h2>
+                <p>El volpino es una raza italiana de spitz que alguna vez fue extremadamente popular entre toda Italia,
+                    tienen un pelaje muy característico. Su cuerpo parece estar cubierto por un cilindro peludo,
+                    especialmente en el cuello, donde forma un collar abundante. son perros animados, alegres y
+                    juguetones, con un temperamento característico y que se vuelven muy apegados a su territorio y a su
+                    familia. El volpino alcanza alturas de hasta 33 centímetros. Sin embargo, su capa esponjosa puede
+                    darles la apariencia de altura adicional. Pesan entre dos y cuatros kilos, aunque las hembras son
+                    generalmente más pequeñas en tamaño en comparación con los machos.</p>
+                <br><br>
+                <h2>Airedale Terrier </h2>
+                <p>Airedale terrier es una raza de perros grande y fuerte perteneciente al grupo terrier. Es de origen
+                    británico, de la región de Yorkshire. Los Airedale se muestran algo distantes con los extraños en un
+                    primer momento, y necesitan una socialización y adiestramiento tempranos, sin embargo necesitan
+                    interactuar con los humanos para ser felices. Son perros muy inteligentes, pero con cierto grado de
+                    tozudez e independencia. Requieren firmeza y comprensión desde que son cachorros. Miden unos 60 cm y
+                    su peso oscila entre los 25 kg en una hembra pequeña y los 35 kg en un macho grande.</p>
+                <br><br>
+                <h2>Akbash </h2>
+                <p>El Akbash es una raza canina cuyo origen se encuentra en Turquía, donde empezó a desarrollarse desde
+                    tiempos ancestrales para el cuidado del ganado. Es una raza grande y poderosa. El tamaño va de 28 a
+                    34 pulgadas de alto y pesa de 30 a 63 kilogramos. Los perros guardianes de ganado han sido escogidos
+                    por sus colores blancos para que combinen con la manada para que no sean confundidos por los
+                    pastores de los predadores, la mayoría de ellos son obscuros. El Akbash puede funcionar por sí mismo
+                    sin guía humana, hacer decisiones independientes mientras tienden a sus manadas. Esta independencia
+                    puede hacerlos más difíciles de entrenar y requiere una mano firme y estable para hacerlos mascotas
+                    de familia. Estas mismas tendencias de guardián pueden hacer a estos perros propensos a dar ladridos
+                    de alarma, algunas veces en exceso.</p>
+                <br><br>
+                <h2>Foxhound inglés</h2>
+                <p>El foxhound ingles es una raza de perro, tipo sabueso. Desciende del perro de San Huberto y del
+                    actualmente extinto talbot. Su función principal es cazar junto a hombres montados a caballo. Puede
+                    trabajar durante varias horas sin descanso y en diversos tipos de terreno, es un animal grande y
+                    fuerte con un pelaje corto que puede presentar cualquier color típico de un sabueso. Tiene las
+                    orejas caídas, un pecho profundo y un físico musculoso. La cola es alta, pero no se curva sobre el
+                    lomo. De adulto alcanza una altura de 58 a 64 cm y un peso de 29 a 32 kg. El Foxhound inglés es
+                    amigable con la gente considerado bueno con los niños, pero a este perro le gusta estar en compañía
+                    de otros perros, aún mejor, preferentemente corriendo alrededor en el exterior. Este perro es
+                    activo, y no los hace buenos para hacer de mascotas en casa, porque son tan activos y orientados a
+                    la caza como para quedarse en el corazón de una familia. El se encuentra más feliz en el campo con
+                    mucho espacio para correr.</p>
+                <br><br>
+                <h2>Pastor ganadero australiano </h2>
+                <p>El pastor ganadero australiano es una raza de perro boyero de origen australiano. En comparación con
+                    otras razas su historia está muy bien documentada, pues es relativamente reciente. Es fácil de
+                    adaptar a cualquier vivienda y clima. Este perro compacto y musculoso de tamaño medio mide de 46 a
+                    51 cm (machos) y de 43 a 48 cm (hembras) en la edad adulta, y su peso puede oscilar entre 17 y 23
+                    kg. El pastor ganadero australiano es cauto con los desconocidos por naturaleza y tiene unos fuertes
+                    instintos protectores, por lo que es especialmente importante una socialización completa y temprana.
+                    Se aconseja que se trabaje desde cachorro para inhibir el impulso de morder también, ya que algunos
+                    perros muerden cuando se excitan demasiado. Es un perro entregado a su familia que puede ser de
+                    armas tomar, así que no es una raza recomendable para principiantes, sino que requiere unos dueños
+                    más experimentados.</p>
+                <br><br>
+                <h2>Collie barbudo </h2>
+                <p>El Collie barbudo es originario de Escocia, donde se originó de una raza de pastores húngaros
+                    importados en 1514. Es una raza de perro esbelto y activo de tamaño medio y tiene un pelaje lanoso,
+                    duro y largo que se divide de forma natural hacia los lados. Los machos suelen medir de 53 a 56 cm y
+                    las hembras, de 51 a 53 cm. Pesan entre 18 y 28 kg. Es una raza despierta, deseosa por aprender y le
+                    gusta rodearse de gente. Son perros amables a los que les encanta sentirse incluidos en todos los
+                    aspectos de la vida familiar y se llevan bien con otros perros y mascotas domésticas. Recibirá a los
+                    desconocidos con nerviosismo y muchos ladridos, pero en general será una bienvenida cordial.</p>
+                <br><br>
+                <h2>Border collie </h2>
+                <p>La raza del Border Collie surgió en la frontera entre Escocia e Inglaterra como perro pastor sobre
+                    todo para trabajar con rebaños de ovejas, es un perro bien proporcionado y de tamaño mediano. El
+                    pelaje puede ser suave o de una longitud media, y el color más común es el negro y blanco, aunque
+                    también se presenta en otros colores combinados. Los machos adultos miden unos 53 cm y la altura de
+                    las hembras es algo inferior. Suelen pesar entre 14 y 20 kg. Los border collie siempre están listos
+                    para trabajar y se muestran atentos, activos y vigilantes. Crean un vínculo muy estrecho con su amo
+                    y su familia, pero, a menos que se les pueda dedicar mucho tiempo y hagan mucho ejercicio, no son
+                    muy adecuados para familias con niños muy pequeños, ya que su instinto natural es seguir a cualquier
+                    cosa que se mueva... incluidos tus hijos. Son decididos y valientes, pero si no se les mantiene
+                    ocupados cometerán travesuras, ya que su cerebro está siempre activo.</p>
+                <br><br>
+                <h2>American bulldog </h2>
+                <p>El bulldog americano es una raza de perro de granja originario del sureste de los Estados Unidos. Es
+                    un perro de talla grande y deportivo. Posee una fisonomía robusta, compacta y poderosa la cual le
+                    permite moverse con agilidad y vigor. Los machos miden entre 57 y 67 centímetros, mientras que las
+                    hembras miden entre 53 y 65 centímetros. El bulldog americano típico es un perro determinado y
+                    valiente, también un excelente guardián por su fuerte instinto de protección, puede ser agresivo con
+                    extraños y con otros perros cuando no se lo ha socializado correctamente o cuando no tiene buen
+                    autocontrol. Por eso, es muy importante socializarlo desde cachorro y entrenarlo en obediencia para
+                    que desarrolle el autocontrol necesario.</p>
+            </div>
+    </section>
+
+    <script>
+
+        const apiKey = 'Hh0YRUdeVyUMIbM7jek31pXBiRhVGm9t';
+        const searchForm = document.getElementById('search-form');
+        const breedSelect = document.getElementById('breed-select');
+        const resultsContainer = document.getElementById('images-container');
+
+        searchForm.addEventListener('submit', e => {
+            e.preventDefault();
+            const breedId = breedSelect.value;
+            searchImagesByBreed(breedId);
+        });
+
+        async function searchImagesByBreed(breedId) {
+            try {
+                const imagesResponse = await fetch(`https://api.thedogapi.com/v1/images/search?breed_ids=${breedId}&limit=10`, {
+                    headers: {
+                        'x-api-key': apiKey
+                    }
+                });
+                const images = await imagesResponse.json();
+                displayResults(images);
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        function displayResults(images) {
+            resultsContainer.innerHTML = '';
+            let count = 0;
+            images.forEach(image => {
+                if (count < 2) {
+                    const card = document.createElement('div');
+                    card.classList.add('card');
+                    const img = document.createElement('img');
+                    img.src = image.url;
+                    const cardBody = document.createElement('div');
+                    cardBody.classList.add('card-body');
+                    card.appendChild(img);
+                    card.appendChild(cardBody);
+                    resultsContainer.appendChild(card);
+                    count++;
+                }
+            });
+        }
+
+    </script>
+    <footer>
+        <div class="footer-column">
+            <img src="img/logo.png" width="250" height="250" alt="Logo de la empresa">
+        </div>
+        <div class="footer-column">
+            <h3>Servicios</h3>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Tienda</a></li>
+                <li><a href="#">Fundacion</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="#">Política de privacidad</a></li>
+                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="#">Aviso legal</a></li>
+                <li><a href="#">Cookies</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Redes sociales</h3>
+            <div class="social-buttons">
+                <a href="#" class="facebook-button"></a>
+                <a href="#" class="twitter-button"></a>
+                <a href="#" class="instagram-button"></a>
+                <a href="#" class="youtube-button"></a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="footer-text">
+                Derechos reservados &copy; 2023 PrettyPets
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
